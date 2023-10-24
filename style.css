@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #717171;
+    font-family: "Nova round", sans-serif;
+}
+
+.container{
+    width: 1360px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 55px 209px 55px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: #EFF5F5;
+    width: 290px;
+    margin-bottom: 30px;
+}
+
+.img{
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.content{
+    padding: 10px;
+    color: #6E6659;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.content *{
+    padding-bottom: 10px;
+}
+
+.content p:last-child{
+    padding-bottom: 0;
+}
+
+.content h1{
+    font-size: 18px;
+    color: #264E58;
+    font-weight: 600;
+}
+
+.content p:last-child span{
+    font-size: 24px;
+    font-weight: 800;
+}
+.content p:nth-child(3) span{
+    color: #264E58;
+}
+
+.img .hit{
+    position: absolute;
+    background-color:#A32018;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 7px;
+    color: #fff;
+    text-transform: uppercase;
+    top: 15px;
+    left: 15px;
+}
+.img .hit p{
+    font-size: 8px;
+}
+
+.img .hit img{
+    width: 8px;
+    height: 8px;
+    margin-right: 4px;
+}
+
+.img .stock{
+    position: absolute;
+    background-color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 7px;
+    color: #4F493F;
+    bottom: 15px;
+    right: 15px;
+}
+
+.img .stock p{
+    font-size: 8px;
+}
+
+.img .stock img{
+    width: 9px;
+    height: 9px;
+    margin-right: 4px;
+}
+
+.img .sale{
+    position: absolute;
+    background-color:#E0CD1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 7px;
+    color: #fff;
+    top: 15px;
+    left: 15px;
+    text-transform: uppercase;
+}
+
+.img .sale p{
+    font-size: 8px;
+}
+
+.img .sale img{
+    width: 8px;
+    height: 8px;
+    margin-right: 4px;
+}
+
+.img .new{
+    position: absolute;
+    background-color: #087A28;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 7px;
+    color: #fff;
+    top: 15px;
+    left: 15px;
+    text-transform: uppercase;
+}
+
+.img .new p{
+    font-size: 8px;
+}
+
+.img .new img{
+    width: 8px;
+    height: 8px;
+    margin-right: 4px;
+}
